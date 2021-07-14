@@ -12,6 +12,7 @@ import java.util.function.Function;
 
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_EMPTY;
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_SEMICOLON;
+import static com.onenetwork.constant.PreparedRecordDataElement.RECORD_DATA_ELEMENT;
 import static com.onenetwork.constant.PreparedSimpleRecordDataElement.SIMPLE_RECORD_DATA_ELEMENT;
 import static com.onenetwork.constant.RegexConstant.REGEX_SPACE;
 import static com.onenetwork.constant.RegexConstant.REGEX_SPACES;
