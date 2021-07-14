@@ -1,0 +1,10 @@
+package com.onenetwork.model.ae_ax.e0.reference;
+
+import com.onenetwork.model.Position;
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
+public class MISDOC {
+    @Position(startPosition = 26, endPosition = 27)
+    private String missingDocumentCode;
+}
