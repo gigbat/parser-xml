@@ -21,7 +21,7 @@ public class PreparedSimpleRecordDataElement {
         SERVICE_SIMPLE_RECORD_DATA_ELEMENT.put(TYPE_ISF_VALIDATE, (s, m) -> {
             String symbol = s.getSymbol();
             String symbolDescription = s.getDescription();
-            return new ISFModel();
+            return new ISFModel(symbol, symbolDescription, m);
         });
         SERVICE_SIMPLE_RECORD_DATA_ELEMENT.put(TYPE_ENTRY_VALIDATE, (s, m) -> {
             String symbol = s.getSymbol();

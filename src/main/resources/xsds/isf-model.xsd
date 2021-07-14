@@ -8,14 +8,12 @@
 
     <x:complexType name="ISFModel">
         <x:choice minOccurs="1" maxOccurs="1">
-            <x:element name="symbol" type="x:string" minOccurs="1" maxOccurs="1">
-                <x:annotation>
-                    <x:appinfo>
-                        <annox:annotate target="field">
-                            <annox:annotate class="java.lang.SuppressWarnings"/>
-                        </annox:annotate>
-                    </x:appinfo>
-                </x:annotation>
+            <x:element name="symbol">
+                <x:simpleType>
+                    <x:restriction base="x:positiveInteger">
+                        <x:maxExclusive value="100"/>
+                    </x:restriction>
+                </x:simpleType>
             </x:element>
             <x:element name="symbolDescription" type="x:string" minOccurs="1" maxOccurs="1"/>
             <x:element name="messageDescription" type="x:string" minOccurs="1" maxOccurs="1"/>

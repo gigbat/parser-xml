@@ -1,11 +1,8 @@
 package com.onenetwork.util;
 
-import com.onenetwork.parser.XmlParser;
-import com.onenetwork.parser.XmlParser.MappingResult;
 import com.onenetwork.response.ResponseMessage;
 import com.onenetwork.storage.MessageStorage;
 import com.onenetwork.storage.RootContentStorage;
-import com.onenetwork.webservice.TMicInterface;
 import com.onenetwork.webservice.TMicInterfaceMessage;
 import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
@@ -19,7 +16,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_EMPTY;
 

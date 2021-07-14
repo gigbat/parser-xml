@@ -20,7 +20,6 @@ import static com.onenetwork.constant.TypeConstant.TYPE_AE;
 import static com.onenetwork.constant.TypeConstant.TYPE_AX;
 import static com.onenetwork.constant.TypeConstant.TYPE_ENTRY_VALIDATE;
 import static com.onenetwork.constant.TypeConstant.TYPE_ISF_VALIDATE;
-import static com.onenetwork.constant.PreparedRecordDataElement.RECORD_DATA_ELEMENT;
 import static com.onenetwork.constant.TypeConstant.TYPE_NR;
 import static com.onenetwork.constant.TypeConstant.TYPE_SA;
 import static com.onenetwork.constant.TypeConstant.TYPE_SN;
