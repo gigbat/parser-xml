@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:schema xmlns:x="http://www.w3.org/2001/XMLSchema"
+          elementFormDefault="qualified"
+          xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+          xmlns:annox="http://annox.dev.java.net"
+          jaxb:extensionBindingPrefixes="annox"
+          jaxb:version="2.1">
+
+    <x:complexType name="ISFModel">
+        <x:choice minOccurs="1" maxOccurs="1">
+            <x:element name="symbol" type="x:string" minOccurs="1" maxOccurs="1">
+                <x:annotation>
+                    <x:appinfo>
+                        <annox:annotate target="field">
+                            <annox:annotate class="java.lang.SuppressWarnings"/>
+                        </annox:annotate>
+                    </x:appinfo>
+                </x:annotation>
+            </x:element>
+            <x:element name="symbolDescription" type="x:string" minOccurs="1" maxOccurs="1"/>
+            <x:element name="messageDescription" type="x:string" minOccurs="1" maxOccurs="1"/>
+        </x:choice>
+    </x:complexType>
+</x:schema>

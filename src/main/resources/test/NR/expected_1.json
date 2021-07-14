@@ -1,0 +1,45 @@
+[
+  {
+    "controlIdentifier": "N",
+    "recordType": "1",
+    "districtOrPortOfEntryOrSummary": "3701",
+    "brokerNumberEntryFilerCode": "S3A",
+    "entryNumber": " 12345678",
+    "entryType": "06",
+    "importerOfRecordNumber": "99-999999999",
+    "totalPaidDutyFirst": "00000759753",
+    "totalPaidDutySecond": "00000000000",
+    "liquidatedDuty": "00000759753",
+    "liquidatedTax": "00000000000",
+    "negativeInterestAmountIndicator": "0"
+  },
+  {
+    "controlIdentifier": "N",
+    "recordType": "2",
+    "districtOrPortOfEntryOrSummary": "3701",
+    "brokerNumberOrEntryFilerCode": "S3A",
+    "entryNumber": " 12345678",
+    "liquidationDate": "070921",
+    "liquidationReasonCode": "99",
+    "brokerReferenceNumber": "FISKARS  ",
+    "liquidationType": "L",
+    "entryDate": "081220",
+    "totalPaidAntidumpingDuty": "00000000000",
+    "interestAmount": "000000000"
+  },
+  {
+    "controlIdentifier": "N",
+    "recordType": "4",
+    "districtOrPortOfEntryOrSummary": "3701",
+    "brokerNumberEntryFilerCode": "S3A",
+    "entryNumber": " 12345678",
+    "totalPaidCountervailingDuty": "00000000000",
+    "totalPaidFees": "00000051976",
+    "liquidatedAntidumpingDuty": "00000000000",
+    "liquidatedCountervailingDuty": "00000000000",
+    "liquidatedFees": "00000051976",
+    "changeLiquidationReasonCodeFirst": "  ",
+    "changeLiquidationReasonCodeSecond": "  ",
+    "changeLiquidationReasonCodeThird": "  "
+  }
+]

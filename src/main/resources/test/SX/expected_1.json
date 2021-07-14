@@ -1,0 +1,44 @@
+[
+  {
+    "controlIdentifier": "SE10",
+    "updateActionCode": "A",
+    "entryFilerCode": "S3A",
+    "entryNumber": "12345678",
+    "entryType": "01",
+    "importerOfRecordType": "EI ",
+    "importerOfRecord": "99-999999999",
+    "modeOfTransportationCode": "11",
+    "bondTypeCode": "8",
+    "estimatedEntryValue": "0000023083",
+    "plannedPortOfEntry": "3701 ",
+    "splitShipmentReleaseCode": " ",
+    "portOfUnlading": "3701 "
+  },
+  {
+    "controlIdentifier": "SE15",
+    "billTypeIndicator": "M",
+    "issuerCodeOfBillOfLadingNumber": "ABCD",
+    "billOfLadingNumber": "XYXB88888800                                      ",
+    "quantity": "        ",
+    "nonAmsIndicator": "N"
+  },
+  {
+    "controlIdentifier": "SE15",
+    "billTypeIndicator": "H",
+    "issuerCodeOfBillOfLadingNumber": "WXYZ",
+    "billOfLadingNumber": "ABC2222286                                        ",
+    "quantity": "55      ",
+    "nonAmsIndicator": "N"
+  },
+  {
+    "controlIdentifier": "SE20",
+    "referenceIdentifierQualifier": "CR ",
+    "referenceIdentifier": "FISK                                              "
+  },
+  {
+    "controlIdentifier": "SE90",
+    "messageTypeCode": "02",
+    "messageIdentifierCode": "   ",
+    "narrativeMessageText": "SE DATA ACCEPTED                        "
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "controlIdentifier": "SF10",
+    "isfSubmissionType": "1",
+    "shipmentTypeCode": "01",
+    "actionCode": "A",
+    "actionReasonCode": "CT",
+    "isfImporterNumberQualifier": "EI ",
+    "isfImporterNumber": "12-123456789   ",
+    "dateOfBirth": "        ",
+    "modeOfTransportationCode": "10",
+    "isfTransactionNumber": "               ",
+    "scasIdentifier": "    ",
+    "bondHolder": "12-123456789   ",
+    "bondActivityCode": "01",
+    "bondType": "8",
+    "countryOfIssuance": "  "
+  },
+  {
+    "controlIdentifier": "SF13",
+    "shipmentSubType": "  ",
+    "estimatedValue": "           ",
+    "estimatedQuantity": "           ",
+    "unitOfMeasure": "   ",
+    "estimatedWeight": "           ",
+    "weightQualifiers": " "
+  },
+  {
+    "controlIdentifier": "SF15",
+    "codeQualifier": "OB",
+    "shipmentReferenceIdentifier": "ABCD987654320                                     "
+  },
+  {
+    "controlIdentifier": "SF30",
+    "entityCode": "CN ",
+    "entityName": "                                   ",
+    "entityIdentifierQualifier": "EI ",
+    "entityIdentifier": "12-123456789        ",
+    "countryCode": "  ",
+    "dateOfBirth": "        "
+  },
+  {
+    "controlIdentifier": "SF30",
+    "entityCode": "IM ",
+    "entityName": "                                   ",
+    "entityIdentifierQualifier": "EI ",
+    "entityIdentifier": "12-123456789        ",
+    "countryCode": "  ",
+    "dateOfBirth": "        "
+  },
+  {
+    "controlIdentifier": "SF30",
+    "entityCode": "LG ",
+    "entityName": "                                   ",
+    "entityIdentifierQualifier": "DUN",
+    "entityIdentifier": "123456789           ",
+    "countryCode": "  ",
+    "dateOfBirth": "        "
+  },
+  {
+    "controlIdentifier": "SF30",
+    "entityCode": "SE ",
+    "entityName": "                                   ",
+    "entityIdentifierQualifier": "DUN",
+    "entityIdentifier": "123456789           ",
+    "countryCode": "  ",
+    "dateOfBirth": "        "
+  },
+  {
+    "controlIdentifier": "SF30",
+    "entityCode": "CS ",
+    "entityName": "                                   ",
+    "entityIdentifierQualifier": "DUN",
+    "entityIdentifier": "123456789           ",
+    "countryCode": "  ",
+    "dateOfBirth": "        "
+  },
+  {
+    "controlIdentifier": "SF30",
+    "entityCode": "ST ",
+    "entityName": "                                   ",
+    "entityIdentifierQualifier": "DUN",
+    "entityIdentifier": "987654321           ",
+    "countryCode": "  ",
+    "dateOfBirth": "        "
+  },
+  {
+    "controlIdentifier": "SF30",
+    "entityCode": "BY ",
+    "entityName": "                                   ",
+    "entityIdentifierQualifier": "DUN",
+    "entityIdentifier": "987654321           ",
+    "countryCode": "  ",
+    "dateOfBirth": "        "
+  },
+  {
+    "controlIdentifier": "SF30",
+    "entityCode": "MF ",
+    "entityName": "                                   ",
+    "entityIdentifierQualifier": "DUN",
+    "entityIdentifier": "123456789           ",
+    "countryCode": "  ",
+    "dateOfBirth": "        "
+  },
+  {
+    "controlIdentifier": "SF40",
+    "harmonizedNumber": "8708210000",
+    "countryOfOrigin": "BE"
+  }
+]

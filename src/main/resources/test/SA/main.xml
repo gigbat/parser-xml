@@ -1,0 +1,50 @@
+<TMicInterface xmlns="urn:http://www.mic-cust.com/Webservice/MicInterface/v1.0">
+    <Connection>
+        <partnerID>PARTNERID</partnerID>
+        <dateTime>2021-01-18T10:21:18.614+01:00</dateTime>
+    </Connection>
+    <Messages>
+        <Message>
+            <Envelope>
+                <sequenceNum>1</sequenceNum>
+            </Envelope>
+            <ActionCode>
+                <code>OK</code>
+            </ActionCode>
+            <Body messageType="ECMRESPONSE"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseMessage xmlns:ns2="tbd">
+    <ns2:TResponse>
+        <ns2:company>US</ns2:company>
+        <ns2:plant>01</ns2:plant>
+        <ns2:timestamp>2021-01-18T10:25:14</ns2:timestamp>
+        <ns2:messageType>SA</ns2:messageType>
+        <ns2:transactionId>SHIPMENT123</ns2:transactionId>
+        <ns2:message>SA10S3A-66884540556                                                             SA30ABCDXXX4444434                                                              SA50S2NO BILL MATCH (NOT ON FILE)                                               </ns2:message>
+    </ns2:TResponse>
+</ResponseMessage>
+]]>
+            </Body>
+        </Message>
+        <Message>
+            <Envelope>
+                <sequenceNum>1</sequenceNum>
+            </Envelope>
+            <ActionCode>
+                <code>OK</code>
+            </ActionCode>
+            <Body messageType="ECMRESPONSE"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseMessage xmlns:ns2="tbd">
+    <ns2:TResponse>
+        <ns2:company>US</ns2:company>
+        <ns2:plant>01</ns2:plant>
+        <ns2:timestamp>2021-01-18T10:25:14</ns2:timestamp>
+        <ns2:messageType>SA</ns2:messageType>
+        <ns2:transactionId>SHIPMENT123</ns2:transactionId>
+        <ns2:message>SA10S3A-66884540556                                                             SA30ABCDXXX4444434                                                              SA50S1BILL ON FILE                                                              </ns2:message>
+    </ns2:TResponse>
+</ResponseMessage>
+]]>
+            </Body>
+        </Message>
+    </Messages>
+</TMicInterface>

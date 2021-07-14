@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Generate ISF Header from Import Shipment with SID: [161]"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Validate ISF message ISF Sid 101 E US_ISF_000027: At least one bill of lading must be declared!"
+  },
+  {
+    "symbol": "E",
+    "symbolDescription": "Error Message",
+    "messageDescription": "E;US_ISF_000027: At least one bill of lading must be declared"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;--------------------------------------------------------------------------------"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;MIC-CUST-111445: Create ISF File: 19.01.2021 09:39:21"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;--------------------------------------------------------------------------------"
+  }
+]

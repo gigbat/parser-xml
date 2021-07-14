@@ -1,0 +1,47 @@
+[
+  {
+    "controlIdentifier": "E0",
+    "referenceDataTypeCode": "SUMMRY",
+    "occurrencePosition": "000001",
+    "referenceIdConstant": "REF ID:",
+    "referenceDataText": {
+      "entryFilerCode": "S3A",
+      "entryNumber": "60145704",
+      "brokerReferenceNumber": "5000001     ",
+      "cbpTeamNumber": "342"
+    }
+  },
+  {
+    "controlIdentifier": "E0",
+    "referenceDataTypeCode": "LINITM",
+    "occurrencePosition": "000001",
+    "referenceIdConstant": "REF ID:",
+    "referenceDataText": {
+      "lineItemIdentifier": "001"
+    }
+  },
+  {
+    "controlIdentifier": "E1",
+    "dispositionTypeCode": " ",
+    "severityCode": "W",
+    "conditionCode": "27J",
+    "reasonCode": "   ",
+    "narrativeText": "*CENSUS* OR-AGR CHARGES/VALUE           ",
+    "entryFilerCode": "S3A",
+    "entryFilerNumber": "60145704",
+    "versionNumber": "     ",
+    "brokerReferenceNumber": "5000001  "
+  },
+  {
+    "controlIdentifier": "E1",
+    "dispositionTypeCode": "A",
+    "severityCode": "W",
+    "conditionCode": "995",
+    "reasonCode": "   ",
+    "narrativeText": "SUMMARY HAS BEEN ADDED                  ",
+    "entryFilerCode": "S3A",
+    "entryFilerNumber": "60145704",
+    "versionNumber": "00100",
+    "brokerReferenceNumber": "5000001  "
+  }
+]

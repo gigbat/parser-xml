@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;--------------------------------------------------------------------------------"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Close Entry Summary: 06.07.2021 20:52:33"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;--------------------------------------------------------------------------------"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Perform defaulting ..."
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Validating entry summary ..."
+  },
+  {
+    "symbol": "W",
+    "symbolDescription": "Warning Message",
+    "messageDescription": "W;ENT_ES_UEH_P0036: 61100047: Arrival date must be greater than 90 days before system date"
+  },
+  {
+    "symbol": "W",
+    "symbolDescription": "Warning Message",
+    "messageDescription": "W;ENT_ES_UEI_P0002: 61100047/TESTENT1737: MID 'ATATCOM47OBE' is probably not on file"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Calculating duties ..."
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Recalculating entry summary status ..."
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;--------------------------------------------------------------------------------"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Close Entry Summary: 06.07.2021 20:53:19"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;--------------------------------------------------------------------------------"
+  }
+]

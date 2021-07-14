@@ -1,0 +1,36 @@
+[
+  {
+    "controlIdentifier": "SF10",
+    "isfSubmissionType": "1",
+    "shipmentTypeCode": "01",
+    "actionCode": "A",
+    "actionReasonCode": "CT",
+    "isfImporterNumberQualifier": "EI ",
+    "isfImporterNumber": "12-123456789   ",
+    "dateOfBirth": "        ",
+    "modeOfTransportationCode": "10",
+    "isfTransactionNumber": "               ",
+    "scasIdentifier": "    ",
+    "bondHolder": "12-123456789   ",
+    "bondActivityCode": "01",
+    "bondType": "8",
+    "countryOfIssuance": "  "
+  },
+  {
+    "controlIdentifier": "SF90",
+    "messageTypeCode": "11",
+    "errorCode": "144",
+    "narrativeMessageText": "CONTINUOUS BOND NOT ON FILE             "
+  },
+  {
+    "controlIdentifier": "SF15",
+    "codeQualifier": "OB",
+    "shipmentReferenceIdentifier": "ABCD987654320                                     "
+  },
+  {
+    "controlIdentifier": "SF90",
+    "messageTypeCode": "01",
+    "errorCode": "   ",
+    "narrativeMessageText": "ISF REJECTED                            "
+  }
+]

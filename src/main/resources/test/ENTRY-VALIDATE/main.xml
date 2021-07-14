@@ -1,0 +1,130 @@
+<TMicInterface xmlns="urn:http://www.mic-cust.com/Webservice/MicInterface/v1.0">
+    <Connection>
+        <partnerID>PARTNERID</partnerID>
+        <dateTime>2021-01-18T10:21:18.614+01:00</dateTime>
+    </Connection>
+    <Messages>
+        <Message>
+            <Envelope>
+                <sequenceNum>1</sequenceNum>
+            </Envelope>
+            <ActionCode>
+                <code>OK</code>
+            </ActionCode>
+            <Body messageType="ECMRESPONSE"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseMessage xmlns:ns2="tbd">
+    <ns2:TResponse>
+        <ns2:company>US</ns2:company>
+        <ns2:plant>01</ns2:plant>
+        <ns2:timestamp>2021-01-18T10:22:14</ns2:timestamp>
+        <ns2:messageType>ENTRY-VALIDATE</ns2:messageType>
+        <ns2:transactionId>SHIPMENT123</ns2:transactionId>
+        <ns2:message>.;--------------------------------------------------------------------------------
+        .;Close Entry Summary: 06.07.2021 20:52:33
+        .;--------------------------------------------------------------------------------
+        .;Perform defaulting ...
+        .;Perform supplementing ...
+        .;Validating entry summary ...
+        W;ENT_ES_UEH_P0036: 61100047: Arrival date must be greater than 90 days before system date
+        W;ENT_ES_UEI_P0002: 61100047/TESTENT1737: MID 'ATATCOM47OBE' is probably not on file
+        .;Calculating duties ...
+        .;Recalculating entry summary status ...
+        .;--------------------------------------------------------------------------------
+        .;Close Entry Summary: 06.07.2021 20:53:19
+        .;--------------------------------------------------------------------------------
+        </ns2:message>
+    </ns2:TResponse>
+</ResponseMessage>
+]]>
+            </Body>
+        </Message>
+        <Message>
+            <Envelope>
+                <sequenceNum>1</sequenceNum>
+            </Envelope>
+            <ActionCode>
+                <code>OK</code>
+            </ActionCode>
+            <Body messageType="ECMRESPONSE"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseMessage xmlns:ns2="tbd">
+    <ns2:TResponse>
+        <ns2:company>US</ns2:company>
+        <ns2:plant>01</ns2:plant>
+        <ns2:timestamp>2021-01-18T10:22:14</ns2:timestamp>
+        <ns2:messageType>ENTRY-VALIDATE</ns2:messageType>
+        <ns2:transactionId>SHIPMENT123</ns2:transactionId>
+        <ns2:message>.;--------------------------------------------------------------------------------
+        .;Close Entry Summary: 06.07.2021 21:22:40
+        .;--------------------------------------------------------------------------------
+        .;Perform defaulting ...
+        .;Perform supplementing ...
+        .;Validating entry summary ...
+        W;ENT_ES_UEH_P0036: 61100120: Arrival date must be greater than 90 days before system date
+        E;ENT_ES_UEH_P0054: 61100120: Total Gross Weight must not be lower than sum of net weight of entry lines (100 &lt; 5000).
+        W;ENT_ES_UEI_P0002: 61100120/GZTESTENT1824-01: MID 'ATATCOM47OBE' is probably not on file
+        E;Validation error(s) occurred
+        E;Closure error(s) occurred
+        .;--------------------------------------------------------------------------------
+        .;Close Entry Summary: 06.07.2021 21:22:46
+        .;--------------------------------------------------------------------------------
+        </ns2:message>
+    </ns2:TResponse>
+</ResponseMessage>
+]]>
+            </Body>
+        </Message>
+        <Message>
+            <Envelope>
+                <sequenceNum>1</sequenceNum>
+            </Envelope>
+            <ActionCode>
+                <code>OK</code>
+            </ActionCode>
+            <Body messageType="ECMRESPONSE"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseMessage xmlns:ns2="tbd">
+    <ns2:TResponse>
+        <ns2:company>US</ns2:company>
+        <ns2:plant>01</ns2:plant>
+        <ns2:timestamp>2021-01-18T10:22:14</ns2:timestamp>
+        <ns2:messageType>ENTRY-VALIDATE</ns2:messageType>
+        <ns2:transactionId>SHIPMENT123</ns2:transactionId>
+        <ns2:message>.;--------------------------------------------------------------------------------
+        .;Close Entry Summary: 06.07.2021 21:17:38
+        .;--------------------------------------------------------------------------------
+        .;Perform defaulting ...
+        .;Perform supplementing ...
+        .;Validating entry summary ...
+        E;ENT_ES_UEH_S0012: 77839995: Release date must not be empty
+        E;ENT_ES_UEH_S0030: 77839995: Importer: The entered value does not exist in the list of values
+        E;ENT_ES_UEH_S0043: 77839995: Location of Goods: The entered value does not exist in the list of values
+        E;ENT_ES_UEH_S0045: 77839995: Carrier Code: The entered value does not exist in the list of values
+        E;ENT_ES_UEH_P0018: 77839995: The U.S. State of Destination Code must not be empty with the Entry Type Code [01].
+        W;ENT_ES_UEH_P0036: 77839995: Arrival date must be greater than 90 days before system date
+        E;ENT_ES_UEH_P0053: 77839995: Total Gross Weight must be greater than zero
+        E;ENT_ES_UEI_S0020: 77839995/94081536: RPI must not be empty
+        E;ENT_ES_UEI_S0021: 77839995/94081536: Ship From must not be empty
+        E;ENT_ES_UEI_S0022: 77839995/94081536: Country of Export must not be empty
+        E;ENT_ES_UEI_S0024: 77839995/94081536: Ship To must not be empty
+        E;ENT_ES_UEI_C0001: 77839995/94081536: Account code must not be empty.
+        E;ENT_ES_UEL_P0014: 77839995/94081536/1: The Related Party Indicator must not be empty with the Entry Type Code [01].
+        E;ENT_ES_ULT_S0007: 77839995/94081536/1: Unit of Measurement must not be empty
+        E;ENT_ES_UEI_S0020: 77839995/MV17072018VOL-A: RPI must not be empty
+        E;ENT_ES_UEI_S0021: 77839995/MV17072018VOL-A: Ship From must not be empty
+        E;ENT_ES_UEI_S0022: 77839995/MV17072018VOL-A: Country of Export must not be empty
+        E;ENT_ES_UEI_S0024: 77839995/MV17072018VOL-A: Ship To must not be empty
+        E;ENT_ES_UEI_C0001: 77839995/MV17072018VOL-A: Account code must not be empty.
+        E;ENT_ES_UEL_P0014: 77839995/MV17072018VOL-A/1: The Related Party Indicator must not be empty with the Entry Type Code [01].
+        E;ENT_ES_ULT_S0007: 77839995/MV17072018VOL-A/1: Unit of Measurement must not be empty
+        E;Validation error(s) occurred
+        E;Closure error(s) occurred
+        .;--------------------------------------------------------------------------------
+        .;Close Entry Summary: 06.07.2021 21:17:44
+        .;--------------------------------------------------------------------------------
+        </ns2:message>
+    </ns2:TResponse>
+</ResponseMessage>
+]]>
+            </Body>
+        </Message>
+    </Messages>
+</TMicInterface>

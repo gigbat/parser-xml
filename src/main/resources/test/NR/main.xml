@@ -1,0 +1,29 @@
+<TMicInterface xmlns="urn:http://www.mic-cust.com/Webservice/MicInterface/v1.0">
+    <Connection>
+        <partnerID>PARTNERID</partnerID>
+        <dateTime>2021-01-18T10:21:18.614+01:00</dateTime>
+    </Connection>
+    <Messages>
+        <Message>
+            <Envelope>
+                <sequenceNum>1</sequenceNum>
+            </Envelope>
+            <ActionCode>
+                <code>OK</code>
+            </ActionCode>
+            <Body messageType="ECMRESPONSE"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseMessage xmlns:ns2="tbd">
+    <ns2:TResponse>
+        <ns2:company>US</ns2:company>
+        <ns2:plant>01</ns2:plant>
+        <ns2:timestamp>2021-01-18T10:25:14</ns2:timestamp>
+        <ns2:messageType>NR</ns2:messageType>
+        <ns2:transactionId>SHIPMENT123</ns2:transactionId>
+        <ns2:message>N13701S3A 123456780699-999999999000007597530000000000000000759753000000000000   N23701S3A 1234567807092199FISKARS                    L08122000000000000000000000N43701S3A 123456780000000000000000051976000000000000000000000000000051976       </ns2:message>
+    </ns2:TResponse>
+</ResponseMessage>
+]]>
+            </Body>
+        </Message>
+    </Messages>
+</TMicInterface>

@@ -1,0 +1,72 @@
+[
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;--------------------------------------------------------------------------------"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Close Entry Summary: 06.07.2021 21:22:40"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;--------------------------------------------------------------------------------"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Perform defaulting ..."
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Perform supplementing ..."
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Validating entry summary ..."
+  },
+  {
+    "symbol": "W",
+    "symbolDescription": "Warning Message",
+    "messageDescription": "W;ENT_ES_UEH_P0036: 61100120: Arrival date must be greater than 90 days before system date"
+  },
+  {
+    "symbol": "E",
+    "symbolDescription": "Error Message",
+    "messageDescription": "E;ENT_ES_UEH_P0054: 61100120: Total Gross Weight must not be lower than sum of net weight of entry lines (100 < 5000)."
+  },
+  {
+    "symbol": "W",
+    "symbolDescription": "Warning Message",
+    "messageDescription": "W;ENT_ES_UEI_P0002: 61100120/GZTESTENT1824-01: MID 'ATATCOM47OBE' is probably not on file"
+  },
+  {
+    "symbol": "E",
+    "symbolDescription": "Error Message",
+    "messageDescription": "E;Validation error(s) occurred"
+  },
+  {
+    "symbol": "E",
+    "symbolDescription": "Error Message",
+    "messageDescription": "E;Closure error(s) occurred"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;--------------------------------------------------------------------------------"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;Close Entry Summary: 06.07.2021 21:22:46"
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
+    "messageDescription": ".;--------------------------------------------------------------------------------"
+  }
+]

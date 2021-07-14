@@ -1,0 +1,136 @@
+[
+  {
+    "controlIdentifier": "10",
+    "summaryFilingActionRequestCode": "A",
+    "entryFilerCode": "S3A",
+    "entryNumber": "60145704",
+    "disOrPortEntry": "3801",
+    "brokerReferenceNumber": "5000001  ",
+    "entryTypeCode": "06",
+    "modeOfTransportationCode": "30",
+    "bondWaiverIndicator": " ",
+    "electronicSignature": "X",
+    "cargoReleaseCertificationRequestIndicator": " ",
+    "electronicInvoiceIndicator": " ",
+    "consolidatedSummaryIndicator": " ",
+    "shipmentUsageTypeCode": " ",
+    "liveEntryIndicator": " ",
+    "deferredTaxPaymentCode": " ",
+    "tradeAgreementReconciliationIndicator": " ",
+    "reconciliationIssueCode": "001",
+    "paymentTypeCode": "6",
+    "preliminaryStatementPrintDate": "122820",
+    "periodicStatementMonth": "01",
+    "statementClientBranchIdentifier": "01",
+    "bondWaiverReasonCode": "   ",
+    "postSummaryCorrectionIndicator": " ",
+    "acceleratedLiquidationRequestIndicator": " ",
+    "knownImporterIndicator": " ",
+    "pgaDataIncludedIndicator": " ",
+    "tibDeclarationIndicator": " "
+  },
+  {
+    "controlIdentifier": "11",
+    "importerOfRecordNumber": "57-123456789",
+    "consigneeNumber": "57-123456789",
+    "designatedNotifyPartyNumber": "            ",
+    "estimatedEntryDate": "121620",
+    "dateOfImportation": "121620",
+    "foreignTradeZoneIdentifier": "12162  ",
+    "stateOfDestinationCode": "MI"
+  },
+  {
+    "controlIdentifier": "20",
+    "carrierCode": "    ",
+    "districtOrPortOfUnlading": "3801",
+    "estimatedDateOfArrival": "121620",
+    "locationOfGoodsCode": "H726",
+    "conveyanceName": "                    ",
+    "vesselCode": "       ",
+    "designatedExamPortCode": "    ",
+    "inBondOrTransitDate": "      "
+  },
+  {
+    "controlIdentifier": "31",
+    "bondTypeCode": "8",
+    "bondDesignationTypeCode": "B",
+    "continuousBondIndicator": " ",
+    "suretyCompanyCode": "891",
+    "singleTransactionBondAmount": "          ",
+    "singleTransactionBondProducerAccountNumber": "          "
+  },
+  {
+    "controlIdentifier": "40",
+    "lineItemIdentifier": "001",
+    "articleSetIndicator": " ",
+    "countryOfOriginCode": "AT",
+    "countryOfExportCode": "AT",
+    "dateOfExportation": "121620",
+    "dateOfExportationTextiles": "      ",
+    "tradeAgreementOrSpecialProgramClaimCode": "  ",
+    "chargesAmount": "0000000000",
+    "foreignPortOfLadingCode": "     ",
+    "grossShippingWeight": "0000000600",
+    "categoryCodeTextiles": "   ",
+    "productClaimCode": " ",
+    "relatedPartyIndicator": "N",
+    "naftaNetCostIndicator": " ",
+    "feeExemptionCode": " ",
+    "adCaseNonReimbursementStatement": " "
+  },
+  {
+    "controlIdentifier": "41",
+    "ftzMerchandiseStatusCode": "N",
+    "privilegedFtzMerchandiseFilingDate": "      ",
+    "ftzLineItemQuantity": "0000000015"
+  },
+  {
+    "controlIdentifier": "47",
+    "articlePartyTypeCode": "M",
+    "articlePartyIdentifier": "AFABCTEC123FAL "
+  },
+  {
+    "controlIdentifier": "47",
+    "articlePartyTypeCode": "S",
+    "articlePartyIdentifier": "57-123456789   "
+  },
+  {
+    "controlIdentifier": "50",
+    "htsNumber": "9401200000",
+    "dutyAmount": "0000000000",
+    "valueOfGoodsAmount": "0000006000",
+    "quantityFirst": "000000001500",
+    "unitOfMeasureCodeFirst": "NO ",
+    "quantitySecond": "            ",
+    "unitOfMeasureCodeSecond": "   ",
+    "quantityThird": "            ",
+    "unitOfMeasureCodeThird": "   "
+  },
+  {
+    "controlIdentifier": "62",
+    "accountingClassCode": "499",
+    "userFeeAmount": "    2078"
+  },
+  {
+    "controlIdentifier": "89",
+    "accountingClassCodeFirst": "499",
+    "totalFeeAmountFirst": "00000002723",
+    "accountingClassCodeSecond": "   ",
+    "totalFeeAmountSecond": "           ",
+    "accountingClassCodeThird": "   ",
+    "totalFeeAmountThird": "           ",
+    "accountingClassCodeFourth": "   ",
+    "totalFeeAmountFourth": "           ",
+    "accountingClassCodeFifth": "   ",
+    "totalFeeAmountFifth": "           "
+  },
+  {
+    "controlIdentifier": "90",
+    "grandTotalDutyAmount": "00000000000",
+    "grandTotalUserFeeAmount": "00000002723",
+    "grandTotalIrTaxAmount": "00000000000",
+    "grandTotalAdDutyAmount": "00000000000",
+    "grandTotalCvDutyAmount": "00000000000",
+    "grandTotalOtherRevenueAmount": "           "
+  }
+]

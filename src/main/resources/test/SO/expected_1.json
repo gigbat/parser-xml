@@ -1,0 +1,81 @@
+[
+  {
+    "controlIdentifier": "SO10",
+    "districtOrPortOfEntry": "3701",
+    "entryFilerCode": "S3A",
+    "entryNumber": "12345678",
+    "entryTypeCode": "01",
+    "importerOfRecordNumber": "99-999999999",
+    "carrierCode": "ABCD",
+    "vesselName": "THE BIG SSSSSS      ",
+    "voyageOrFlightOrTripManifestNumber": "AA99 ",
+    "estimatedDateOfArrival": "070521",
+    "splitShipmentReleaseCode": " ",
+    "correctionResponseIndicator": " "
+  },
+  {
+    "controlIdentifier": "SO20",
+    "referenceIdentifierQualifier": "CR ",
+    "referenceIdentifier": "FISK                                              "
+  },
+  {
+    "controlIdentifier": "SO40",
+    "billTypeIndicator": "M",
+    "issuerCodeOfBillOfLadingNumber": "ABCD",
+    "billOfLadingNumber": "GGG5555583                                        ",
+    "quantity": "        ",
+    "unitOfMeasure": "     ",
+    "manifestedQuantity": "        "
+  },
+  {
+    "controlIdentifier": "SO40",
+    "billTypeIndicator": "H",
+    "issuerCodeOfBillOfLadingNumber": "WXYX",
+    "billOfLadingNumber": "HHH4444708                                        ",
+    "quantity": "00000028",
+    "unitOfMeasure": "PCS  ",
+    "manifestedQuantity": "00000028"
+  },
+  {
+    "controlIdentifier": "SO50",
+    "dispositionDate": "070721",
+    "dispositionTime": "1513",
+    "dispositionCode": "95",
+    "narrativeMessage": "BILL ARRIVED                            ",
+    "splitIndicator": " ",
+    "carrierCode": "    ",
+    "voyageOrFlightOrTripManifestNumber": "     ",
+    "dateOfArrival": "      ",
+    "districtOrPortOfArrival": "    "
+  },
+  {
+    "controlIdentifier": "SO60",
+    "dispositionActionDate": "070721",
+    "dispositionActionTime": "1523",
+    "dispositionActionCode": "22",
+    "narrativeMessage": "RELEASE DATE UPDATE                     ",
+    "releaseDate": "070721",
+    "releaseOriginCode": "01",
+    "documentType": "      "
+  },
+  {
+    "controlIdentifier": "SO60",
+    "dispositionActionDate": "070721",
+    "dispositionActionTime": "1523",
+    "dispositionActionCode": "98",
+    "narrativeMessage": "RELEASED                                ",
+    "releaseDate": "070721",
+    "releaseOriginCode": "01",
+    "documentType": "      "
+  },
+  {
+    "controlIdentifier": "SO60",
+    "dispositionActionDate": "070721",
+    "dispositionActionTime": "1523",
+    "dispositionActionCode": "01",
+    "narrativeMessage": "ONE USG                                 ",
+    "releaseDate": "      ",
+    "releaseOriginCode": "  ",
+    "documentType": "      "
+  }
+]
