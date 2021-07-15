@@ -84,7 +84,7 @@ import com.onenetwork.model.sx.sf.SF30RecordDataElement;
 import com.onenetwork.model.sx.sf.SF31RecordDataElement;
 import com.onenetwork.model.sx.sf.SF35RecordDataElement;
 import com.onenetwork.model.sx.sf.SF36RecordDataElement;
-import com.onenetwork.parser.AnnotationParser;
+import com.onenetwork.util.AnnotationExtractor;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -190,330 +190,330 @@ public class PreparedRecordDataElement {
 
     static {
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, E0.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(E0RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(E0RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, EIGHTY_EIGHT.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(EightyEightRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(EightyEightRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, EIGHTY_NINE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(EightyNineRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(EightyNineRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, ELEVEN.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ElevenRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ElevenRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, FIFTY_FOUR.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FiftyFourRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FiftyFourRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, FIFTY_ONE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FiftyOneRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FiftyOneRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, FIFTY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FiftyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FiftyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, FIFTY_THREE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FiftyThreeRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FiftyThreeRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, FIFTY_TWO.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FiftyTwoRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FiftyTwoRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, FORTY_FOUR.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortyFourRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortyFourRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, FORTY_ONE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortyOneRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortyOneRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, FORTY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, FORTY_SEVEN.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortySevenRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortySevenRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, FORTY_THREE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortyThreeRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortyThreeRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, FORTY_TWO.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortyTwoRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortyTwoRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, NINETY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(NinetyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(NinetyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SIXTY_ONE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SixtyOneRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SixtyOneRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SIXTY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SixtyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SixtyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SIXTY_THREE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SixtyThreeRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SixtyThreeRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SIXTY_TWO.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SixtyTwoRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SixtyTwoRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, TEN.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(TenRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(TenRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, THIRTY_FIVE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyFiveRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyFiveRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, THIRTY_FOUR.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyFourRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyFourRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, THIRTY_ONE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyOneRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyOneRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, THIRTY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, THIRTY_SIX.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtySixRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtySixRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, THIRTY_THREE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyThreeRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyThreeRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, THIRTY_TWO.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyTwoRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyTwoRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, TWENTY_ONE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(TwentyOneRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(TwentyOneRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, TWENTY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(TwentyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(TwentyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, TWENTY_THREE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(TwentyThreeRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(TwentyThreeRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, TWENTY_TWO.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(TwentyTwoRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(TwentyTwoRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, CW02.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(CW02RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(CW02RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, E1.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(E1RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(E1RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, OI.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(OIRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(OIRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SE13.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE13RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE13RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SE16.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE16RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE16RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SE17.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE17RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE17RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SE20.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE20RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE20RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SE30.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE30RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE30RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SE35.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE35RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE35RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SE36.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE36RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE36RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SE50.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE50RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE50RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SE55.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE55RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE55RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SE56.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE56RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE56RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AE, SE61.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE61RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE61RecordDataElement.class, e));
 
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, E0.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(E0RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(E0RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, EIGHTY_EIGHT.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(EightyEightRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(EightyEightRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, EIGHTY_NINE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(EightyNineRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(EightyNineRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, ELEVEN.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ElevenRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ElevenRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, FIFTY_FOUR.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FiftyFourRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FiftyFourRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, FIFTY_ONE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FiftyOneRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FiftyOneRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, FIFTY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FiftyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FiftyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, FIFTY_THREE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FiftyThreeRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FiftyThreeRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, FIFTY_TWO.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FiftyTwoRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FiftyTwoRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, FORTY_FOUR.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortyFourRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortyFourRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, FORTY_ONE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortyOneRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortyOneRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, FORTY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, FORTY_SEVEN.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortySevenRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortySevenRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, FORTY_THREE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortyThreeRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortyThreeRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, FORTY_TWO.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(FortyTwoRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(FortyTwoRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, NINETY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(NinetyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(NinetyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SIXTY_ONE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SixtyOneRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SixtyOneRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SIXTY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SixtyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SixtyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SIXTY_THREE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SixtyThreeRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SixtyThreeRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SIXTY_TWO.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SixtyTwoRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SixtyTwoRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, TEN.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(TenRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(TenRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, THIRTY_FIVE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyFiveRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyFiveRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, THIRTY_FOUR.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyFourRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyFourRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, THIRTY_ONE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyOneRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyOneRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, THIRTY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, THIRTY_SIX.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtySixRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtySixRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, THIRTY_THREE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyThreeRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyThreeRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, THIRTY_TWO.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(ThirtyTwoRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(ThirtyTwoRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, TWENTY_ONE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(TwentyOneRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(TwentyOneRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, TWENTY.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(TwentyRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(TwentyRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, TWENTY_THREE.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(TwentyThreeRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(TwentyThreeRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, TWENTY_TWO.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(TwentyTwoRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(TwentyTwoRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, CW02.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(CW02RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(CW02RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, E1.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(E1RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(E1RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, OI.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(OIRecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(OIRecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SE13.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE13RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE13RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SE16.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE16RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE16RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SE17.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE17RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE17RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SE20.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE20RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE20RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SE30.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE30RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE30RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SE35.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE35RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE35RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SE36.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE36RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE36RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SE50.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE50RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE50RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SE55.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE55RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE55RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SE56.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE56RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE56RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_AX, SE61.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE61RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE61RecordDataElement.class, e));
 
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SO, SO10.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SO10RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SO10RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SO, SO20.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SO20RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SO20RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SO, SO30.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SO30RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SO30RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SO, SO40.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SO40RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SO40RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SO, SO42.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SO42RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SO42RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SO, SO50.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SO50RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SO50RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SO, SO60.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SO60RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SO60RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SO, SO70.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SO70RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SO70RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SO, SO71.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SO71RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SO71RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SO, SO72.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SO72RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SO72RecordDataElement.class, e));
 
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE10.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE10RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE10RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE11.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE11RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE11RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE13.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sx.se.SE13RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sx.se.SE13RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE15.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE15RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE15RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE16.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sx.se.SE16RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sx.se.SE16RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE17.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sx.se.SE17RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sx.se.SE17RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE20.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sx.se.SE20RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sx.se.SE20RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE30.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sx.se.SE30RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sx.se.SE30RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE35.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sx.se.SE35RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sx.se.SE35RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE36.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sx.se.SE36RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sx.se.SE36RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE40.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE40RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE40RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE41.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE41RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE41RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE50.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sx.se.SE50RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sx.se.SE50RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE55.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sx.se.SE55RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sx.se.SE55RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE56.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sx.se.SE56RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sx.se.SE56RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE60.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE60RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE60RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE61.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sx.se.SE61RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sx.se.SE61RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SE90.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SE90RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SE90RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SF10.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF10RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF10RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SF20.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF20RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF20RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SF25.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF25RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF25RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SF30.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF30RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF30RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SF31.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF31RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF31RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SF35.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF35RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF35RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SX, SF36.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF36RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF36RecordDataElement.class, e));
 
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF10.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF10RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF10RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF13.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF13RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF13RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF15.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF15RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF15RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF20.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF20RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF20RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF25.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF25RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF25RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF30.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF30RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF30RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF31.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF31RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF31RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF35.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF35RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF35RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF36.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF36RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF36RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF40.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF40RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF40RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF50.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF50RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF50RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SN, SF90.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF90RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF90RecordDataElement.class, e));
 
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF10.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF10RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF10RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF13.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF13RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF13RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF15.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF15RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF15RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF20.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF20RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF20RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF25.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF25RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF25RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF30.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF30RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF30RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF31.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF31RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF31RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF35.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF35RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF35RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF36.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(com.onenetwork.model.sn_us_isf10.SF36RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(com.onenetwork.model.sn_us_isf10.SF36RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF40.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF40RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF40RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF50.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF50RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF50RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_US_ISF10, SF90.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SF90RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SF90RecordDataElement.class, e));
 
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SA, SA10.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SA10RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SA10RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SA, SA20.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SA20RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SA20RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SA, SA30.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SA30RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SA30RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_SA, SA50.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(SA50RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(SA50RecordDataElement.class, e));
 
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_NR, N1.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(N1RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(N1RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_NR, N2.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(N2RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(N2RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_NR, N3.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(N3RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(N3RecordDataElement.class, e));
         SERVICE_RECORD_DATA_ELEMENT.put(new ControlIdentifierSelector(TYPE_NR, N4.getIdentifier()),
-                e -> AnnotationParser.getParsedValue(N4RecordDataElement.class, e));
+                e -> AnnotationExtractor.getParsedValue(N4RecordDataElement.class, e));
     }
 
     public static final Map<ControlIdentifierSelector, Function<String, Object>> RECORD_DATA_ELEMENT =

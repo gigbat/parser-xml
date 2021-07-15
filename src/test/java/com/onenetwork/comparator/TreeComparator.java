@@ -14,7 +14,7 @@ public class TreeComparator {
         try {
             COMPARATOR.compare(expected, actual);
         } catch (Throwable t) {
-            throw new RuntimeException("Can't compare expected and actual results");
+            throw new RuntimeException(t.getMessage());
         }
     }
 

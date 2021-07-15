@@ -22,6 +22,11 @@
   {
     "symbol": ".",
     "symbolDescription": "General Message",
+    "messageDescription": ".;Perform supplementing ..."
+  },
+  {
+    "symbol": ".",
+    "symbolDescription": "General Message",
     "messageDescription": ".;Validating entry summary ..."
   },
   {

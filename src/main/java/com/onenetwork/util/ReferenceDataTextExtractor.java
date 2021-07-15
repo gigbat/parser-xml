@@ -1,4 +1,4 @@
-package com.onenetwork.parser;
+package com.onenetwork.util;
 
 import lombok.experimental.UtilityClass;
 import org.reflections.Reflections;

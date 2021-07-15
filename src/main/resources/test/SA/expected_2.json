@@ -1,0 +1,18 @@
+[
+  {
+    "controlIdentifier": "SA",
+    "recordType": "10",
+    "isfTransactionNumber": "S3A-66884540556"
+  },
+  {
+    "controlIdentifier": "SA",
+    "recordType": "30",
+    "billNumber":"ABCDXXX4444434  "
+  },
+  {
+    "controlIdentifier": "SA",
+    "recordType": "50",
+    "dispositionCode": "S1",
+    "remarks": "BILL ON FILE                            "
+  }
+]

@@ -12,11 +12,10 @@ import java.util.function.Function;
 
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_EMPTY;
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_SEMICOLON;
-// import static com.onenetwork.constant.PreparedRecordDataElement.RECORD_DATA_ELEMENT;
+import static com.onenetwork.constant.DelimiterConstant.DELIMITER_SPACE;
 import static com.onenetwork.constant.PreparedRecordDataElement.RECORD_DATA_ELEMENT;
 import static com.onenetwork.constant.PreparedSimpleRecordDataElement.SIMPLE_RECORD_DATA_ELEMENT;
 import static com.onenetwork.constant.RegexConstant.REGEX_SPACE;
-import static com.onenetwork.constant.RegexConstant.REGEX_SPACES;
 import static com.onenetwork.constant.RegexConstant.REGEX_SPACE_FROM_5;
 import static com.onenetwork.constant.TypeConstant.TYPE_AE;
 import static com.onenetwork.constant.TypeConstant.TYPE_AX;
@@ -57,7 +56,7 @@ public class LineParser {
     }
 
     private void generateCatairInstances(final ResponseMessage responseMessage, final List<Object> list) {
-        String message = responseMessage.getResponse().getMessage().replaceFirst(REGEX_SPACES, DELIMITER_EMPTY);
+        String message = removeFirstSpaces(responseMessage.getResponse().getMessage());
         String[] lines = getLines(message);
 
         for (String line : lines) {
@@ -67,6 +66,12 @@ public class LineParser {
             Object recordDataElement = getRecordDataElement(line, controlIdentifier, messageType);
             list.add(recordDataElement);
         }
+    }
+
+    private String removeFirstSpaces(final String message) {
+        return message.startsWith(DELIMITER_SPACE)
+                ? message.replaceFirst(REGEX_SPACE, DELIMITER_EMPTY)
+                : message;
     }
 
     private Integer getEndPosition(final String line) {

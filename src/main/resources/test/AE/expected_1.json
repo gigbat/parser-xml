@@ -4,7 +4,7 @@
     "summaryFilingActionRequestCode": "A",
     "entryFilerCode": "S3A",
     "entryNumber": "60145704",
-    "disOrPortEntry": "3801",
+    "districtOrPortOfEntry": "3801",
     "brokerReferenceNumber": "5000001  ",
     "entryTypeCode": "06",
     "modeOfTransportationCode": "30",
@@ -48,7 +48,7 @@
     "conveyanceName": "                    ",
     "vesselCode": "       ",
     "designatedExamPortCode": "    ",
-    "inBondOrTransitDate": "      "
+    "inBondOrInTransitDate": "      "
   },
   {
     "controlIdentifier": "31",
@@ -103,7 +103,7 @@
     "unitOfMeasureCodeFirst": "NO ",
     "quantitySecond": "            ",
     "unitOfMeasureCodeSecond": "   ",
-    "quantityThird": "            ",
+    "quantityThird": "  ",
     "unitOfMeasureCodeThird": "   "
   },
   {

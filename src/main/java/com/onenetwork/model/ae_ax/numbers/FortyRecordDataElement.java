@@ -16,9 +16,9 @@ public class FortyRecordDataElement {
     @Position(startPosition = 11, endPosition = 12)
     private String countryOfExportCode;
     @Position(startPosition = 13, endPosition = 18)
-    private String dateOfExportationFirst;
+    private String dateOfExportation;
     @Position(startPosition = 19, endPosition = 24)
-    private String dateOfExportationSecond;
+    private String dateOfExportationTextiles;
     @Position(startPosition = 25, endPosition = 26)
     private String tradeAgreementOrSpecialProgramClaimCode;
     @Position(startPosition = 27, endPosition = 36)
@@ -28,7 +28,7 @@ public class FortyRecordDataElement {
     @Position(startPosition = 42, endPosition = 51)
     private String grossShippingWeight;
     @Position(startPosition = 52, endPosition = 54)
-    private String categoryCode;
+    private String categoryCodeTextiles;
     @Position(startPosition = 55, endPosition = 55)
     private String productClaimCode;
     @Position(startPosition = 56, endPosition = 56)

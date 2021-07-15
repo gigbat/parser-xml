@@ -16,7 +16,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Iterator;
 import java.util.List;
 
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_EMPTY;
@@ -73,20 +72,18 @@ public class XmlExtractor {
     private List<MessageStorage> getContents(final List<RootContentStorage> rootContents) {
         XmlParser parser = new XmlParser();
         List<MessageStorage> responseMessageList = new ArrayList<>();
-        Iterator<RootContentStorage> iterator = rootContents.iterator();
 
-        while (iterator.hasNext()) {
-            RootContentStorage rootContent = iterator.next();
-            if (rootContent != null) {
+        rootContents.forEach(e -> {
+            if (e != null) {
                 XmlParser.MappingResult<TMicInterface> rootMappingResult =
-                        parser.apply(TMicInterface.class, rootContent.getXml());
+                        parser.apply(TMicInterface.class, e.getXml());
                 List<TMicInterfaceMessage> messageContent = getMessages(rootMappingResult.content);
 
                 if (messageContent != null && !messageContent.isEmpty()) {
-                    responseMessageList.addAll(getResponseMessage(parser, rootContent, messageContent));
+                    responseMessageList.addAll(getResponseMessage(parser, e, messageContent));
                 }
             }
-        }
+        });
         return responseMessageList;
     }
 

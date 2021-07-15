@@ -145,11 +145,6 @@
     "messageDescription": "E;Closure error(s) occurred"
   },
   {
-    "symbol": "E",
-    "symbolDescription": "Error Message",
-    "messageDescription": "E;Closure error(s) occurred"
-  },
-  {
     "symbol": ".",
     "symbolDescription": "General Message",
     "messageDescription": ".;--------------------------------------------------------------------------------"

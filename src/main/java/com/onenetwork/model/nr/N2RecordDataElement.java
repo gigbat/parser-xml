@@ -8,7 +8,7 @@ public class N2RecordDataElement {
     @Position(startPosition = 2, endPosition = 2)
     private String recordType;
     @Position(startPosition = 3, endPosition = 6)
-    private String districtOrPortOfEntrySummary;
+    private String districtOrPortOfEntryOrSummary;
     @Position(startPosition = 7, endPosition = 9)
     private String brokerNumberOrEntryFilerCode;
     @Position(startPosition = 10, endPosition = 18)

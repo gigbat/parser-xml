@@ -20,7 +20,7 @@ public class E1RecordDataElement {
     @Position(startPosition = 51, endPosition = 53)
     private String entryFilerCode;
     @Position(startPosition = 56, endPosition = 63)
-    private String entryNumber;
+    private String entryFilerNumber;
     @Position(startPosition = 64, endPosition = 68)
     private String versionNumber;
     @Position(startPosition = 69, endPosition = 77)

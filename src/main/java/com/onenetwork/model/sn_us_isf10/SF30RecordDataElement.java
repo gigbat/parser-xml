@@ -15,4 +15,8 @@ public class SF30RecordDataElement {
     private String entityIdentifierQualifier;
     @Position(startPosition = 46, endPosition = 65)
     private String entityIdentifier;
+    @Position(startPosition = 66, endPosition = 67)
+    private String countryCode;
+    @Position(startPosition = 68, endPosition = 75)
+    private String dateOfBirth;
 }

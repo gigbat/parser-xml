@@ -1,4 +1,4 @@
-package com.onenetwork.interpreter;
+package com.onenetwork.test;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
@@ -24,6 +24,7 @@ import java.util.stream.Collectors;
 public class JsonTest {
 
     private static final ObjectMapper MAPPER = new ObjectMapper();
+    private static final String SUFFIX_JSON = ".json";
 
     @BeforeAll
     public static void configure() {
@@ -54,7 +55,7 @@ public class JsonTest {
 
     private List<File> validateFiles(final String endPoint) {
         return Arrays.stream(Objects.requireNonNull(new File(endPoint).listFiles()))
-                .filter(e -> e.isFile() && e.getAbsolutePath().endsWith(".json"))
+                .filter(e -> e.isFile() && e.getAbsolutePath().endsWith(SUFFIX_JSON))
                 .collect(Collectors.toList());
     }
 
@@ -67,9 +68,7 @@ public class JsonTest {
             List<Object> models = lineParser.getModels(responseMessage);
             String actual = MAPPER.writeValueAsString(models);
             String expected = FileUtils.readFileToString(files.get(counter - 1), StandardCharsets.UTF_8);
-            if (responseMessage.getResponse().getMessageType().equals("ISF-VALIDATE")) {
-                TreeComparator.compare(expected, actual);
-            }
+            TreeComparator.compare(expected, actual);
         }
     }
 
