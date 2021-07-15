@@ -2,12 +2,12 @@ package com.onenetwork.parser;
 
 import com.onenetwork.model.CustomObject;
 import com.onenetwork.model.Position;
-import javafx.geometry.Pos;
 import lombok.SneakyThrows;
+import lombok.experimental.UtilityClass;
 
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 
+@UtilityClass
 public class AnnotationParser {
     @SneakyThrows
     public Object getParsedValue(final Class<?> clazz, final String line) {
