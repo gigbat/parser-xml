@@ -8,5 +8,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
 public @interface CustomObject {
-    boolean isCustom();
+    int startPosition();
+    int endPosition();
+    String pathToPackage();
 }

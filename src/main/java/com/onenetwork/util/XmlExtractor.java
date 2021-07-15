@@ -1,8 +1,10 @@
 package com.onenetwork.util;
 
+import com.onenetwork.parser.XmlParser;
 import com.onenetwork.response.ResponseMessage;
 import com.onenetwork.storage.MessageStorage;
 import com.onenetwork.storage.RootContentStorage;
+import com.onenetwork.webservice.TMicInterface;
 import com.onenetwork.webservice.TMicInterfaceMessage;
 import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
@@ -76,7 +78,7 @@ public class XmlExtractor {
         while (iterator.hasNext()) {
             RootContentStorage rootContent = iterator.next();
             if (rootContent != null) {
-                MappingResult<TMicInterface> rootMappingResult =
+                XmlParser.MappingResult<TMicInterface> rootMappingResult =
                         parser.apply(TMicInterface.class, rootContent.getXml());
                 List<TMicInterfaceMessage> messageContent = getMessages(rootMappingResult.content);
 
@@ -94,7 +96,7 @@ public class XmlExtractor {
         List<MessageStorage> messageStorageList = new ArrayList<>();
         for (int i = 0; i < messageContent.size(); i++) {
             String value = messageContent.get(i).getBody().getValue();
-            MappingResult<ResponseMessage> responseMessageMappingResult =
+            XmlParser.MappingResult<ResponseMessage> responseMessageMappingResult =
                     parser.apply(ResponseMessage.class, value);
             messageStorageList.add(new MessageStorage(rootContent.getPath(),
                     responseMessageMappingResult.content));

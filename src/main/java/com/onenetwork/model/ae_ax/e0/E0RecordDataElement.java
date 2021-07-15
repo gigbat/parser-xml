@@ -14,6 +14,6 @@ public class E0RecordDataElement {
     private String occurrencePosition;
     @Position(startPosition = 18, endPosition = 24)
     private String referenceIdConstant;
-    @CustomObject(isCustom = true)
+    @CustomObject(startPosition = 4, endPosition = 9, pathToPackage = "com.onenetwork.model.ae_ax.e0.reference")
     private Object referenceDataText;
 }
